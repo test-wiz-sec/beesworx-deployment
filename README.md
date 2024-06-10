@@ -109,6 +109,6 @@ NamespaceHound does not save any data about the target cluster locally. It does 
 | CONTAINER_BPF_CAPABILITY | HIGH | HIGH | Container has SYS_BPF capability allowing kernel-level access to other process resources, (f.e. packet capture and secret stealing). | Inspecting container's capabilities and namespace sharing. |
 | CONTAINER_IPC_CAPABILITY | HIGH | HIGH | Container has IPC_OWNER capability allowing control of other namespace processes running on the same worker node. | Inspecting container's capabilities and namespace sharing. |
 
-## References
+### References
 - https://www.cncf.io/blog/2022/11/09/multi-tenancy-in-kubernetes-implementation-and-optimization/
 - https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
