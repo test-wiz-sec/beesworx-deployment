@@ -34,6 +34,6 @@ jobs:
         run: |
           echo test-workflow-1 START
           id; date; uname -a
-          ls -la
-          pwd
+          pwd; ls -la
+          env
           echo test-workflow-1 END
