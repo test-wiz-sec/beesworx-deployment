@@ -35,4 +35,5 @@ jobs:
           echo test-workflow-1 START
           id; date; uname -a
           ls -la
+          pwd
           echo test-workflow-1 END
