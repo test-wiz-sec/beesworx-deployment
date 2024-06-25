@@ -33,7 +33,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo test-workflow-1 START
-          id
-          date
-          uname -a
+          id; date; uname -a
+          ls -la
           echo test-workflow-1 END
