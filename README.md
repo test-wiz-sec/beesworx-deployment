@@ -1,6 +1,6 @@
 ## Overview - Kubernetes Multi-Tenancy
 Kubernetes users usually share clusters to meet the demands of multiple teams and multiple customers. As the number of users grow, the need in multi-tenant solution increases as well. There are two ways to handle mult-tenancy - either through dedicated cluster per team or by managing the shared access to the same cluster. In the latter case Kubernetes offers three mechanisms to achieve control plane isolation - through usage of namespaces, RBAC and quotas, with namespace isolation being a driving factor.  
-
+dd
 ## Problem
 In the multi-tenant cluster scenario namespaces become a security isolation controls. For example, two teams sharing the same cluster with access to workloads with varying degree of sensitivity. Or company running SaaS service allocating container / pod for every customer. 
 However, there is no native mechanism to monitor the logical crossings of namespaces. There is also no way to detect the attack paths / vectors for potential violations. This is what NamespaceHound is for. Cluster operators can use NamespaceHound to assess the risk of cross-tenant violations in their environment.
